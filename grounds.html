@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="images/title.jpg" type="image/png">
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Indian Premier League</title>
+	<meta name="description" content="Free Responsive Html5 Css3 Templates | zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+		<link href="font/material-design-icons-master/material-icons.css" rel="stylesheet">
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+
+	
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery183.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+		});
+	</script>
+    
+</head>
+<body>
+<div class="wrap-body" >
+
+<!--////////////////////////////////////Header-->
+<header>
+
+	<div class="wrap-header zerogrid">
+		<div class="row">
+			<div id="cssmenu">
+				<ul>
+				   <li class='active'><a href="index.php">Home</a></li>
+				   <li><a href="#statistics">Trending</a></li>
+				   <li><a href="squad.html">The Squad</a></li>	
+				   <li><a href="loginform.php">Register/Login</a>
+  					</li>
+
+				   
+				</ul>
+			</div>
+			<a href='index.php' class="logo"><img src="images/logo.png" /></a>
+		</div>
+	</div>
+</header>
+<div class="slider">
+<CENTER>
+
+	<!-- Slideshow -->
+	<div class="callbacks_container" >
+		<ul class="rslides" id="slider">
+		<li>
+				<img src="images/eden.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Eden Gardens, Kolkatta</i></h1>
+				</div>
+			</li>
+			<li>
+				<img src="images/feroz.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Feroz Shah Kotla, Delhi</i></h1>
+				</div>
+			</li>
+			<li>
+				<img src="images/mc.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>M.Chinnaswamy Stadium, Bangalore</i></h1>
+					
+				</div>
+			</li>
+			<li>
+				<img src="images/mcs.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Maharashtra Cricket Stadium, Pune</i></h1>				
+				</div>
+			</li>
+			<li>
+				<img src="images/pca.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Punjab Cricket Association, Chandigarh</i></h1>
+				</div>
+			</li>
+			<li>
+				<img src="images/rgi.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Rajiv Gandhi International Stadium, Hyderabad</i></h1>
+				</div>
+			</li>
+			<li>
+				<img src="images/scs.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Saurashta Cricket Stadium, Rajkot</i></h1>
+				</div>
+			</li>
+			<li>
+				<img src="images/svns.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>SVNS International Stadium, Raipur</i></h1>
+				</div>
+			</li>
+			<li>
+				<img src="images/vca.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Vidarbha Cricket Stadium, Nagpur</i></h1>
+				</div>
+			</li>
+			<li>
+				<img src="images/wan.jpg" alt="">
+				<div class="caption">
+					<h1 style="font-family: Monotype Corsiva"><i>Wankhede Cricket Stadium, Mumbai</i></h1>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+
+<!--////////////////////////////////////Footer-->
+<footer>
+	
+	<div class="wrap-footer">
+		<div class="zerogrid">
+			<div class="row">
+				<h3>Contact</h3>
+				<span>Phone / +80 999 99 9999 </span></br>
+				<span>Email / info@domain.com  </span></br>
+				<span>Studio / Moonshine St. 14/05 Light City </span></br>
+			</div>
+		</div>
+	</div>
+</footer>
+	
+</div>
+</body>
+</html>
